@@ -13,7 +13,7 @@ class UsersController extends Controller
     {
         //登录用户页面访问权限
         $this->middleware('auth', [
-            'except' => ['show', 'create', 'store', 'index'],
+            'except' => ['show', 'create', 'store'],
         ]);
 
         //未登录用户只能访问页面

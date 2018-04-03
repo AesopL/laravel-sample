@@ -5083,6 +5083,7 @@ tbody.collapse.in {
   position: relative;
   display: block;
   padding: 10px 15px;
+  color:#fff;
 }
 
 .nav > li > a:hover,
@@ -5707,7 +5708,7 @@ tbody.collapse.in {
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #777;
+  color: #fff;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -5782,7 +5783,7 @@ tbody.collapse.in {
 }
 
 .navbar-default .navbar-link {
-  color: #777;
+  color: #fff;
 }
 
 .navbar-default .navbar-link:hover {
@@ -8525,5 +8526,27 @@ input {
 
 #logout:hover {
   background-color: transparant;
+}
+
+.gravatar_edit {
+  margin: 15px auto;
+  text-align: center;
+}
+
+.gravatar_edit .gravatar {
+  float: none;
+  max-width: 100px;
+}
+
+.users {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.users li {
+  overflow: auto;
+  padding: 10px 0;
+  border-bottom: 1px solid #eeeeee;
 }
 

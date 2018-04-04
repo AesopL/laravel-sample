@@ -6,6 +6,7 @@
 	<script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> -->
 	<link rel="stylesheet" href="/css/app.css">
 	<link href="https://cdn.bootcss.com/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="/css/style.css">
 	<title>@yield('title','sample-vblog') -Laravel学习</title>
 </head>
 <body>

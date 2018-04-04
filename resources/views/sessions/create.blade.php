@@ -23,7 +23,7 @@
                     	<input type="checkbox" id="inlineFormCheckMD" class="form-check-input" name="remember">
                         <label class="form-check-label" for="inlineFormCheckMD">记住我</label>
                     </div>
-                    <button type="submit" class="btn btn-primary">登陆</button>
+                    <button type="submit" class="btn btn-primary pull-right">登陆</button>
                     <hr>
                     <p>还没有账号？<a href="{{ route('signup') }}">注册一个吧</a></p>
                 </form>

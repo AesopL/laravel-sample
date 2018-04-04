@@ -14,9 +14,7 @@
 		@include('shared._feed')
 	</div>
 	<div class="col-md-4">
-		<section >
 			@include('shared._user_view',['user'=>Auth::user()])
-		</section>
 	</div>
 </div>
 @else
